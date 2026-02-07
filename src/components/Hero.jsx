@@ -59,7 +59,7 @@ const Hero = () => {
            transition={{ duration: 0.8 }}
            className="w-full md:w-1/2 flex justify-center"
         >
-            <img src="/public/profile1.png" className="w-full h-full object-cover rounded-full" />
+            <img src="/profile1.png" className="w-full h-full object-cover rounded-full" />
         </motion.div>
       </div>
     </div>
