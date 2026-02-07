@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  @apply bg-light text-slate-800 dark:bg-dark dark:text-slate-100 transition-colors duration-300;
+  overflow-x: hidden;
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-200 dark:bg-slate-800;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full;
+}
